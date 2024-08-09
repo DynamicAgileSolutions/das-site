@@ -1,0 +1,61 @@
+@media screen and (min-width: 500px) {
+    
+    #top-logo {
+        display: none;
+        background-color: #0A2239;
+        width: 200px;
+        height: auto;
+        float: left;
+        padding: 5px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    #menu {
+        display: none;
+    }
+    #home-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+    }
+    #banner {
+        /* border: 1px solid #85D6FF; */
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+    .hero {
+        /* border: 1px solid #85D6FF; */
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .library {
+        /* border: 1px solid #85D6FF; */
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .consulting {
+        /* border: 1px solid #85D6FF; */
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+    #bottom-logo {
+        display: none;
+        background-color: #0A2239;
+        width: 200px;
+        height: auto;
+        float: left;
+        padding: 5px;
+    }
+}
